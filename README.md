@@ -81,3 +81,27 @@ Una pequeña empresa necesita gestionar su inventario. Debe permitir:
 La aplicación en Java ilustra cada patrón creacional y permite cumplir los requisitos.  
 
 **Estructura propuesta del proyecto (`PilotoInventario`):**
+└── PilotoInventario
+├── Main.java (Clase de prueba - usa todos los patrones)
+├── Producto.java (Interfaz base)
+├── ProductoConcreto.java (Clase concreta de Producto - usada en todos)
+├── ProductoPrototype.java (Prototype)
+├── ProductoBuilder.java (Builder)
+├── Inventario.java (Clase de apoyo al Singleton)
+├── InventarioSingleton.java (Singleton)
+├── FabricaAbstracta.java (Abstract Factory - interfaz)
+├── FabricaAlimentos.java (Abstract Factory - implementación concreta)
+├── FabricaElectronicos.java (Abstract Factory - implementación concreta)
+└── ProductoFactoryMethod.java (Factory Method)
+
+**Clases (resumen):**
+- `Producto`: interfaz base. Define `clonar()`.  
+- `ProductoConcreto`: implementación de `Producto`.  
+- `Prototype`: `ProductoPrototype` para duplicar productos existentes.  
+- `Builder`: `ProductoBuilder` para construir productos paso a paso.  
+- `Factory Method`: `ProductoFactoryMethod` encapsula la lógica de creación.  
+- `Abstract Factory`: `FabricaAbstracta`, `FabricaAlimentos`, `FabricaElectronicos`.  
+- `Singleton`: `InventarioSingleton` como único gestor de inventario global.  
+
+---
+
