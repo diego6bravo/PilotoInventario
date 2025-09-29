@@ -103,5 +103,17 @@ La aplicación en Java ilustra cada patrón creacional y permite cumplir los req
 - `Abstract Factory`: `FabricaAbstracta`, `FabricaAlimentos`, `FabricaElectronicos`.  
 - `Singleton`: `InventarioSingleton` como único gestor de inventario global.  
 
+### Diseño UML y componentes principales
+Clases principales
+•	Producto (Interfaz): define getNombre(), getPrecio(), clonar().
+•	ProductoConcreto: implementación con atributos básicos y clonación.
+•	ProductoBuilder: construcción paso a paso.
+•	ProductoFactoryMethod: crea productos según categoría.
+•	FabricaAbstracta: interfaz de fábricas concretas.
+o	FabricaAlimentos
+o	FabricaElectronicos
+•	Inventario: lista de productos, operaciones de agregar/listar.
+•	InventarioSingleton: acceso único al inventario.
+
 ---
 
