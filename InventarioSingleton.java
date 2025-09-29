@@ -1,21 +1,14 @@
 package JavaBasics.PilotoInventario;
 
 public class InventarioSingleton {
-    private static InventarioSingleton instancia;
-    private Inventario inventario;
+    private static Inventario instancia;
 
-    private InventarioSingleton() {
-        inventario = new Inventario();
-    }
+    private InventarioSingleton() {}
 
-    public static InventarioSingleton getInstancia() {
+    public static Inventario getInstancia() {
         if (instancia == null) {
-            instancia = new InventarioSingleton();
+            instancia = new Inventario();
         }
         return instancia;
-    }
-
-    public Inventario getInventario() {
-        return inventario;
     }
 }
