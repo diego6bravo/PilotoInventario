@@ -1,4 +1,4 @@
-# PROYECTO TRANSVERSAL / FASE I  
+# PROYECTO TRANSVERSAL / FASE III
 **Gestión de Inventarios (Java)**  
 
 ---
@@ -18,8 +18,9 @@
 2. [Selección de patrones creacionales (y justificación)](#selección-de-patrones-creacionales-y-justificación)  
 3. [Planificación del proyecto (cronograma)](#planificación-del-proyecto-cronograma)  
 4. [Análisis de requisitos](#análisis-de-requisitos-funcionales-y-no-funcionales)  
-5. [Diseño técnico y documentación de clases](#diseño-técnico-y-documentación-de-clases)  
-6. [Enlace código de implementación](#enlace-código-de-implementación)  
+5. [Diseño técnico y documentación de clases](#diseño-técnico-y-documentación-de-clases)
+6. [Diagrama de Clases](#Diagrama-de-Clases)
+7. [Enlace código de implementación](#enlace-código-de-implementación)  
 
 ---
 
@@ -102,6 +103,7 @@ La aplicación en Java ilustra cada patrón creacional y permite cumplir los req
 - `Abstract Factory`: `FabricaAbstracta`, `FabricaAlimentos`, `FabricaElectronicos`.  
 - `Singleton`: `InventarioSingleton` como único gestor de inventario global.  
 
+---
 ### Diseño UML y componentes principales
 Clases principales
 •	Producto (Interfaz): define getNombre(), getPrecio(), clonar().
@@ -115,4 +117,13 @@ o	FabricaElectronicos
 •	InventarioSingleton: acceso único al inventario.
 
 ---
+
+## Diagrama-de-Clases
+
+![GestorInventario-UML-UniPiloto|1700](https://github.com/diego6bravo/PilotoInventario/blob/Fase-III/UML-Gestor%20de%20Inventario.png)
+
+---
+## Enlace código de implementación
+
+Repositorio de Github: https://github.com/diego6bravo/PilotoInventario.git
 
