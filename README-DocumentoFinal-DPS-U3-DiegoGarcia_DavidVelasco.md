@@ -20,7 +20,8 @@
 4. [Análisis de requisitos](#análisis-de-requisitos-funcionales-y-no-funcionales)  
 5. [Diseño técnico y documentación de clases](#diseño-técnico-y-documentación-de-clases)
 6. [Diagrama de Clases](#Diagrama-de-Clases)
-7. [Enlace código de implementación](#enlace-código-de-implementación)  
+7. [Código](#Código)
+8. [Enlace código de implementación](#enlace-código-de-implementación)  
 
 ---
 
@@ -106,21 +107,55 @@ La aplicación en Java ilustra cada patrón creacional y permite cumplir los req
 ---
 ### Diseño UML y componentes principales
 Clases principales
-•	Producto (Interfaz): define getNombre(), getPrecio(), clonar().
-•	ProductoConcreto: implementación con atributos básicos y clonación.
-•	ProductoBuilder: construcción paso a paso.
-•	ProductoFactoryMethod: crea productos según categoría.
-•	FabricaAbstracta: interfaz de fábricas concretas.
-o	FabricaAlimentos
-o	FabricaElectronicos
-•	Inventario: lista de productos, operaciones de agregar/listar.
-•	InventarioSingleton: acceso único al inventario.
+- Producto (Interfaz): define getNombre(), getPrecio(), clonar().
+- ProductoConcreto: implementación con atributos básicos y clonación.
+- ProductoBuilder: construcción paso a paso.
+- ProductoFactoryMethod: crea productos según categoría.
+- FabricaAbstracta: interfaz de fábricas concretas.
+- FabricaAlimentos
+- FabricaElectronicos
+- Inventario: lista de productos, operaciones de agregar/listar.
+- InventarioSingleton: acceso único al inventario.
 
 ---
 
-## Diagrama-de-Clases
+## Diagrama de Clases
 
 ![GestorInventario-UML-UniPiloto|1700](https://github.com/diego6bravo/PilotoInventario/blob/Fase-III/UML-Gestor%20de%20Inventario.png)
+
+---
+## Código
+### Abstract Facthory
+![AbstractFacthory](https://github.com/diego6bravo/PilotoInventario/blob/Fase-III/pantallazosCodigo/Fabrica%20Abstracta.jpg)
+
+### Fábrica Alimentos
+![Fábrica Alimentos](https://github.com/diego6bravo/PilotoInventario/blob/Fase-III/pantallazosCodigo/Fabrica%20Alimentos.jpg)
+
+### Inventario Singleton
+![Inventario Singleton](https://github.com/diego6bravo/PilotoInventario/blob/Fase-III/pantallazosCodigo/Inventario%20Singleton.jpg)
+
+### Inventario
+![Inventario](https://github.com/diego6bravo/PilotoInventario/blob/Fase-III/pantallazosCodigo/Inventario.jpg)
+
+### Main
+![Main](https://github.com/diego6bravo/PilotoInventario/blob/Fase-III/pantallazosCodigo/Main.jpg)
+
+### Producto (Interfaz)
+![Producto](https://github.com/diego6bravo/PilotoInventario/blob/Fase-III/pantallazosCodigo/Producto.jpg)
+
+### Producto Builder
+![Producto Builder](https://github.com/diego6bravo/PilotoInventario/blob/Fase-III/pantallazosCodigo/Producto%20Builder.jpg)
+
+### Producto Concreto
+![Producto Concreto-Parte 1](https://github.com/diego6bravo/PilotoInventario/blob/Fase-III/pantallazosCodigo/Producto%20Concreto%20Corregido-1.jpg)
+
+![Producto Concreto-Parte 2](https://github.com/diego6bravo/PilotoInventario/blob/Fase-III/pantallazosCodigo/Producto%20Concreto%20Corregido-2.jpg)
+
+### Producto Factory Method
+![Producto Factory Method](https://github.com/diego6bravo/PilotoInventario/blob/Fase-III/pantallazosCodigo/Producto%20Factory%20Method.jpg)
+
+### Producto Prototype
+![Producto Prototype](https://github.com/diego6bravo/PilotoInventario/blob/Fase-III/pantallazosCodigo/Producto%20Prototype%20Corregido.jpg)
 
 ---
 ## Enlace código de implementación
