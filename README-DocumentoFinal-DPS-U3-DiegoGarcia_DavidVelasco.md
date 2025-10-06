@@ -68,12 +68,11 @@ Una pequeña empresa necesita gestionar su inventario. Debe permitir:
 3. Clonar productos existentes.  
 4. Consultar inventario (lista de productos con stock actual).  
 5. Actualizar inventario (añadir/restar unidades).  
-6. Mantener un repositorio GitHub con código y documentación.  
 
 ### Requisitos no funcionales
 - Código en Java.  
-- Repositorio privado con acceso del docente.  
-- Entregar PDF con documentación del proyecto.  
+- Repositorio privado en Github con acceso del docente.  
+- Entregar PDF con documentación del proyecto.
 
 ---
 
