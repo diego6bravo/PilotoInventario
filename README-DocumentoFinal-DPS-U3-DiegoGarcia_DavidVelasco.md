@@ -119,11 +119,12 @@ Clases principales
 
 ---
 
-## Diagrama de Clases
+## Diagrama de Clases (Rama Fase-III)
 
 ![GestorInventario-UML-UniPiloto|1700](https://github.com/diego6bravo/PilotoInventario/blob/Fase-III/UML-Gestor%20de%20Inventario.png)
 
 ---
+<<<<<<< HEAD
 ## Código
 ### Abstract Facthory
 ![AbstractFacthory](https://github.com/diego6bravo/PilotoInventario/blob/Fase-III/pantallazosCodigo/Fabrica%20Abstracta.jpg)
@@ -159,6 +160,9 @@ Clases principales
 
 ---
 ## Enlace código de implementación
+=======
+## Enlace código de implementación (Rama Fase-III)
+>>>>>>> 66b981d (Agregando documentación completa en el Main.java y en creador y prototipo)
 
 Repositorio de Github: https://github.com/diego6bravo/PilotoInventario.git
 

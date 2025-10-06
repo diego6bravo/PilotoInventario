@@ -1,3 +1,35 @@
+
+/**
+ * Este paquete contiene las clases y interfaces relacionadas con el inventario de productos.
+ * Se utiliza el patrón de diseño Abstract Factory para crear productos concretos según su categoría.
+ * Además, se utilizan otros patrones como Builder, Factory Method y Singleton.
+ * 
+ * Clases principales:
+ * - Producto: Interfaz común para todos los objetos que instanciará la clase y las subclases creadoras.
+ * - ProductoConcreto: Implementación de la interfaz Producto.
+ * - ProductoBuilder: Construcción paso a paso de objetos Producto.
+ * - ProductoFactoryMethod: Crea productos según su categoría.
+ * - FabricaAbstracta: Interfaz de fábricas concretas.
+ * - FabricaAlimentos: Fábrica concreta para alimentos.
+ * - FabricaElectronicos: Fábrica concreta para electrónicos.
+ * - ProductoPrototype: Clase para clonar productos existentes.
+ * - CreadorConcreto: Clase que extiende la clase ProductoFactoryMethod.
+ * - InventarioSingleton: Clase Singleton que gestiona el inventario global.
+ * 
+ * Documentación de las clases:
+ * - Producto: Interfaz común para todos los objetos que instanciará la clase y las subclases creadoras.
+ * - ProductoConcreto: Implementación de la interfaz Producto.
+ * - ProductoBuilder: Construcción paso a paso de objetos Producto.
+ * - ProductoFactoryMethod: Crea productos según su categoría.
+ * - FabricaAbstracta: Interfaz de fábricas concretas.
+ * - FabricaAlimentos: Fábrica concreta para alimentos.
+ * - FabricaElectronicos: Fábrica concreta para electrónicos.
+ * - ProductoPrototype: Clase para clonar productos existentes.
+ * - CreadorConcreto: Clase que extiende la clase ProductoFactoryMethod.
+ * - InventarioSingleton: Clase Singleton que gestiona el inventario global.
+ */
+
+
 package JavaBasics.PilotoInventario;
 
 /**
